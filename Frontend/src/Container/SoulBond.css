@@ -1,0 +1,78 @@
+#soulBond {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: 6000px; 
+}
+
+.soulBond > div{
+    border: 1px solid orange;
+    width: 100%;
+}
+
+/* Title */
+.Title{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button_soulbond{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.title_left{
+    display: flex;
+    align-items: center;
+}
+
+.title_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 23%;
+    color: gray;
+    font-size: 18px;
+    align-items: center;
+}
+
+/* Container */
+.Container{
+    height: 600px;
+    display: flex;
+}
+
+.Container  div{
+    border: 1px solid orange;
+}
+
+/* Container 1 */
+.one_left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one_right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.one_r_slogon{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one_r_login{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button_login{
+    color: yellow;
+}
